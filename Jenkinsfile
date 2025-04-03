@@ -12,7 +12,7 @@ stages{
         stage("build jar") {
             steps {
                 script {
-
+                    gv = load 'script.groovy'
                     gv.buildJar()
                 }
             }
