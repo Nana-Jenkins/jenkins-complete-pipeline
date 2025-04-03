@@ -8,6 +8,7 @@ pipeline {
     
     }
 
+stages{
     
         stage("build jar") {
             steps {
@@ -43,3 +44,5 @@ pipeline {
             }
         }               
     }
+
+}
